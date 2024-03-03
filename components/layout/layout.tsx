@@ -18,17 +18,17 @@ import { Footer, FooterProps } from './footer'
 // }
 
 export const Layout: React.FC<LayoutProps> = (props) => {
-  const { children, announcementProps, headerProps, footerProps } = props
-  return (
-    <Box>
-      <SkipNavLink>Skip to content</SkipNavLink>
-      {/* <AnnouncementBanner {...announcementProps} /> */}
-      <Header {...headerProps} />
-      <Box as="main">
-        <SkipNavContent />
-        {children}
-      </Box>
-      <Footer {...footerProps} />
-    </Box>
-  )
+  // const { children, announcementProps, headerProps, footerProps } = props
+  // return (
+  //   <Box>
+  //     <SkipNavLink>Skip to content</SkipNavLink>
+  //     {/* <AnnouncementBanner {...announcementProps} /> */}
+  //     <Header {...headerProps} />
+  //     <Box as="main">
+  //       <SkipNavContent />
+  //       {children}
+  //     </Box>
+  //     <Footer {...footerProps} />
+  //   </Box>
+  // )
 }
