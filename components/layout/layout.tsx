@@ -10,12 +10,12 @@ import { Header, HeaderProps } from './header'
 // } from '../announcement-banner'
 import { Footer, FooterProps } from './footer'
 
-interface LayoutProps {
-  children: ReactNode
-  announcementProps: AnnouncementBannerProps
-  headerProps: HeaderProps
-  footerProps: FooterProps
-}
+// interface LayoutProps {
+//   children: ReactNode
+//   announcementProps: AnnouncementBannerProps
+//   headerProps: HeaderProps
+//   footerProps: FooterProps
+// }
 
 export const Layout: React.FC<LayoutProps> = (props) => {
   const { children, announcementProps, headerProps, footerProps } = props
